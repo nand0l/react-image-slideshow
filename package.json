@@ -1,6 +1,7 @@
 {
   "name": "react-image-slideshow",
   "version": "0.1.0",
+  "homepage": "https://demo.amazoninstructor.info/react-image-slideshow",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -13,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && python3.11 upload.py",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
